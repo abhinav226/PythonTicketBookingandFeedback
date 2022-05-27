@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>QFX Cinemas ticket booking</title>
+<!-------------javascript sources and CSS sources--------------------------->
+<link href="styles/site.css" rel="stylesheet" type="text/css" />
+<script src="scripts/menu.js"></script>
+<script src="scripts/slide.js"></script>
+<!------------------------------------------------------------------>
+</head>
+
+<body onload="slideImages(); slideUpcomming(); slideReleasing();">
+
+<div>
+<nav>
+<ul class="forms">
+<li><B><a href="login.html">Login</a></B></li>
+<li><B><a href="registration.html">Register</a></B></li>
+</ul>
+</nav>
+</div>
+<center>
+<tr>
+<td colspan="4" height="200" >
+<img id="img" src="images/menu/logo.jpg" alt="Logo">
+ 
+</td>
+</tr>
+			
+<div>
+<nav>
+<ul class="menu">
+<li><B><a href="#">Home</a></B></li>
+<li><B><a href="ticketbooking.html">Ticket booking</a></B></li>
+<li><B><a href="http://127.0.0.1:5000/">feedback</a></B></li>
+<li><B><a href="contact.html">Contact Us</a></B></li>
+</ul>
+</nav>
+ </div>	
+				
+				<!----slider--->
+				<tr>
+				<td colspan="4">
+					<img src ="images/poster/pk.jpg" height="550" width="960" name="slide">
+				</td>
+			</tr>
+			<tr>
+                <td colspan="4" bgcolor="#02b1e6"><center><font><span id="wss"></span></font></center><script> 
+				wss_elem=document.getElementById("wss");wssSlide();</script>
+                </td>
+            </tr>
+            
+			<!---end of slider----->
+			
+			<!--container--->
+			<tr>
+			<!--COLUMN ONE(1) NOW SHOWING-->
+			<td colspan="2">
+				<table border="0">
+                <tr>
+                <font color="white">
+                <center><h2><u>NOW SHOWING</u></h2></center>
+			    <div class="slideshow-container">
+
+<div class="mySlides">
+  <img src="images/poster/omn.jpg" height="450" width="170%">
+  <div class="text">
+		<ul>
+			<li>Event name : KD'S Open Mic Night</li>
+			<li>Organized by : PVR Coffee and Cushion</li>
+			<li>Venue : 12-11-b, opp Hauz Khaaj, delhi</li>
+			<li>Timings : 11th Jan,2022 1:00pm<script></script></li>
+			<input type="button" value="Book" onClick="window.location='ticketbooking.html';">
+		</ul>
+</div>
+</div>
+
+<div class="mySlides">
+  <img src="images/poster/oned.jpg" height="450" width="170%">
+  <div class="text">
+		<ul>
+			<li>Event name : One-D Concert</li>
+			<li>Organized by : AVR Media Corp</li>
+			<li>Venue : Rajiv Gandhi Stadium,Mumbai</li>
+			<li>Timings : 14th Feb,2022 4:00<script></script></li>
+			<input type="button" value="Book" onClick="window.location='ticketbooking.html';">
+		 </ul>
+</div>
+</div>
+
+<div class="mySlides">
+  <img src="images/poster/cnk.jpg" height="450" width="170%">
+  <div class="text">
+		<ul>
+			<li>Event name : Comedy Nights with kapil</li>
+			<li>Organized by : Sony Entertainment</li>
+			<li>Venue : 12-34-45, sobo,Mumbai</li>
+			<li>Timings : 21st Jan,2022 10:00 am<script></script></li>
+			<input type="button" value="Book" onClick="window.location='ticketbooking.html';">
+		</ul>
+</div>
+</div>
+
+
+<div>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script src="scripts/nowshowing.js"></script>
+        </font>
+        </tr>
+				<!--now showing spacing--->
+			<tr>
+			<td colspan="2" height="20"></td>
+			</tr>
+						
+            </table>
+			</td>
+			<!--COLUMN TWO(2) UPCOMMING-->
+		<td colspan="1">
+		<table border="0">
+        <tr>
+        <font color="white">
+        <h3><u>UPCOMING</u></h3>
+		<img src="images/poster/upcoming/pic1.jpg" name="upcoming">
+		</tr>
+		<tr>
+		<td colspan="4" height="140"></td>
+		</tr>
+        </table>	
+		</td>
+			<!--COLUMN THREE(3) RELEASING-->
+		<td colspan="1">
+        <table border="0">
+        <tr>
+        <font color="white">
+        <h4><u>RELEASING<u></h4>
+		<img src="images/poster/releasing/pic6.jpg" name="releasing">
+		</tr>
+		<tr>
+		<td colspan="4" height="130"></td>
+		</tr>
+            </table>    
+			</td>
+			 </tr>
+			<!--end of container-->
+			<!--FOOTER-->
+			<tr>
+				<td colspan="4" height="20">
+				</td>
+			</tr>
+		</table>
+		<table border="0" cellspacing="0" cellpadding="0" width="960px" height="100" bgcolor="grey">
+		<tr>
+		<td>
+		<center>
+		<a href="http://www.facebook.com"><img src="images/social icons/facebook.png" height="30" width="30"></a>
+		<a href="http://www.twitter.com"><img src="images/social icons/twitter.png" height="30" width="30"></a>
+		<a href="http://www.youttube.com"><img src="images/social icons/youtube.png" height="30" width="30"></a>
+		<a href="http://www.instagram.com"><img src="images/social icons/instagram.png" height="30" width="30"></a>
+		<p>Copy Right &copy; Protected</p>
+		</center>
+		</td>
+		</tr>
+		</table>
+		
+		<table border="0" cellspacing="0" cellpadding="0" width="960px" height="35" color="silver">
+		<tr>
+		<td>
+		</td>
+		</tr>
+</center>
+</body>
+</html>				
